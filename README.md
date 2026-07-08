@@ -1,22 +1,25 @@
-### APM (Advanced Package Manager) v1.0.0 - Initial Release
+# APM (Advanced Package Manager)
 
-Welcome to the first stable release of **APM**! 
+**APM** is a lightweight, universal wrapper for Linux package managers. It provides a unified command-line interface to perform common package management tasks across different distributions, such as Arch Linux and Debian/Ubuntu-based systems.
 
-APM is a lightweight, universal wrapper for Linux package managers. It provides a unified command-line interface to perform common package management tasks across different distributions.
+## Features
+* **Unified Interface**: Use the same simple commands (`-S`, `-R`, `-U`) regardless of your distribution.
+* **Cross-Distro Support**: Automatically detects the system's native package manager (`pacman`/`yay` for Arch-based, `apt` for Debian-based).
+* **Safety First**: Requires interactive confirmation before performing system-wide changes.
+* **Performance**: Built with Rust, ensuring a fast, memory-safe, and lightweight experience.
 
-#### **What's New in this Release**
-*   **Unified CLI Interface**: Standardized commands (`-S`, `-R`, `-U`) for all supported systems.
-*   **Intelligent Auto-detection**: Automatically identifies and utilizes the system's native package manager (`pacman`/`yay` for Arch-based, `apt` for Debian-based).
-*   **Safety Features**: Added interactive confirmation prompts for all system-wide operations to prevent accidental changes.
-*   **High Performance**: Built with Rust for optimal speed and minimal memory footprint.
+## Usage
 
-#### **Supported Operations**
-*   **Install**: `apm -S <package_name>`
-*   **Remove**: `apm -R <package_name>`
-*   **Upgrade**: `apm -U` (system-wide upgrade)
+| Action | Command |
+| :--- | :--- |
+| **Install a package** | `apm -S <package_name>` |
+| **Remove a package** | `apm -R <package_name>` |
+| **Upgrade the system** | `apm -U` |
 
-#### **Installation**
-You can build APM from source:
-1. Clone the repository: `git clone https://github.com/selc0m/APM---Any-pkg-manager.git`
-2. Build the binary: `cargo build --release`
-3. Install: `sudo cp target/release/apm /usr/local/bin/`
+## Installation
+
+### From Source
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/selc0m/APM---Any-pkg-manager.git](https://github.com/selc0m/APM---Any-pkg-manager.git)
+   cd APM---Any-pkg-manager
