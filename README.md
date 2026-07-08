@@ -22,15 +22,8 @@
 ## Installation
 
 ### From Source
-1. **Clone the repository**:
-   git clone https://github.com/selc0m/APM---Any-pkg-manager.git
-   cd APM---Any-pkg-manager
-
-2. **Build the project**:
-   cargo build --release
-
-3. **Install the binary**:
-   sudo cp target/release/apm /usr/local/bin/
-
+```bash
+git clone https://github.com/selc0m/APM---Any-pkg-manager.git && cd APM---Any-pkg-manager && cargo build --release && sudo cp target/release/apm /usr/local/bin/
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
