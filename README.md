@@ -1,4 +1,7 @@
-# APM (Any Package Manager)
+# APM (Advanced Package Manager)
+
+![GitHub release](https://img.shields.io/github/v/release/selc0m/APM---Any-pkg-manager)
+![License](https://img.shields.io/github/license/selc0m/APM---Any-pkg-manager)
 
 **APM** is a lightweight, universal wrapper for Linux package managers. It provides a unified command-line interface to perform common package management tasks across different distributions, such as Arch Linux and Debian/Ubuntu-based systems.
 
